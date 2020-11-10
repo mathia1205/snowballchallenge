@@ -1,0 +1,182 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f3f3f3;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+
+}
+
+.menu-bar {
+  list-style-type: none;
+  margin-bottom: 50px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f3f3;
+}
+
+.menu-bar li {
+  float: left;
+}
+
+.menu-bar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.menu-bar li a:hover {
+  color: #8FBC8F;
+}
+
+.img-banner {
+  display: none;
+  height: 150px;
+
+}
+
+.info {
+  width: 100%;
+}
+
+ h1 {
+  padding: 30px 30px 20px;
+  font-family: arial;
+  font-size: 55px;
+  color: green;
+  line-height: 50px;
+}
+
+.info p {
+  padding: 0px 35px 20px;
+  font-family: arial;
+  font-size: 30px;
+  line-height: 25px;
+  color: green;
+}
+
+.info ul {
+  padding: 20px 35px 20px;
+  font-family: arial;
+  font-size: 25px;
+  line-height: 25px;
+  color: green;
+}
+
+.img-solcelle-panel2 {
+  width: 100%;
+}
+
+footer {
+  background-color: lightgrey;
+  position: absolute;
+  direction: ltr;
+  padding-left: 2rem;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.footer {
+  position: sticky;
+  text-align: bottom;
+  float: left;
+  width: 100%;
+}
+
+.footer h2 {
+color: black;
+}
+.footer h2:hover {
+color: #8FBC8F;
+}
+
+.footer li {
+  font-size: 20px;
+}
+
+@@media only screen and (min-width: 320px) {
+   .footer {
+    width: 450px;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .img-banner {
+    display: block;
+    width: 800px;
+    padding-bottom: 30px;
+
+  }
+  .wrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
+   h1 {
+    padding: 25px 0px 0px;
+  }
+  .info p {
+    padding: 20px 0px 20px;
+  }
+  .img-solcelle-panel2 {
+    padding-top: 30px;
+
+  }
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 1200px;
+  }
+
+  .info {
+    width: 50%;
+    float: right;
+  }
+
+   h1 {
+    padding: 25px 0px 0px 30px;
+  }
+
+  .info p {
+    padding: 20px 0px 0px 30px;
+  }
+
+  .img-solcelle-panel2   {
+    padding-top: 0px;
+    width: 50px;
+    float: left;
+  }
+  .img-banner {
+    width: 1500px;
+  }
+  .footer {
+    width: 1500px;
+  }
+}
+
+/* solution site */
+
+.info2 p {
+  padding: 0px 35px 20px;
+  font-family: arial;
+  font-size: 20px;
+  line-height: 25px;
+  color: green;
+}
+
+.img-solcelle-panel2 {
+  width: 100%;
+  height: 500px;
+
+
+}
